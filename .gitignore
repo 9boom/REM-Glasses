@@ -43,6 +43,10 @@
 build/
 Build/
 build-*/
+bin/
+*.o
+*.hex
+*.elf
 
 # CMake generated files
 CMakeFiles/
