@@ -134,10 +134,10 @@ The glasses track sleep patterns through head movement using a 6-axis accelerome
         /              \                                                     |
   (Yes)/                \(No)                               +---------------------------------+
       v                  v                                  | Check REM Sleep Window:         |
-[STATE_SLEEPING_NREM] [STATE_AWAKE]                         | Cycle 1: 80-100 min             |
-                                                            | Cycle 2: 170-200 min            |
-                                                            | Cycle 3: 255-295 min            |
-                                                            | Cycle 4+: >= 340 min            |
+[STATE_SLEEPING_NREM] [STATE_AWAKE]                         | Cycle 1: 80-100 min (20 mins)   |
+                                                            | Cycle 2: 165-195 min (30 mins)  |
+                                                            | Cycle 3: 250-290 min (40 mins)  |
+                                                            | Cycle 4+: >= 330 min            |
                                                             +---------------------------------+
                                                                              |
                                                             +---------------------------------+
