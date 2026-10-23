@@ -334,13 +334,13 @@ float getAccelMagnitude() {
 // ---------------------------------------------------------
 bool isInREMWindow(int minutes) {
   // Cycle 1: ~90 minutes (10-15 minute duration)
-  if (minutes >= 80 && minutes <= 100) return true;
+  if (minutes >= 80 && minutes <= 100) return true; //20 mins
   // Cycle 2: ~180 minutes
-  if (minutes >= 170 && minutes <= 200) return true;
+  if (minutes >= 165 && minutes <= 195) return true; //30 mins
   // Cycle 3: ~270 minutes
-  if (minutes >= 255 && minutes <= 295) return true;
+  if (minutes >= 250 && minutes <= 290) return true; //40 mins
   // Cycle 4+: REM periods become longer in the second half of the night
-  if (minutes >= 340) return true; 
+  if (minutes >= 330) return true; 
   
   return false;
 }
